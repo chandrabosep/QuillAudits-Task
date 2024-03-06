@@ -12,11 +12,11 @@ export default function Navbar() {
   };
 
   return (
-    <div className="w-11/12 mx-auto py-6 flex items-center justify-between">
+    <div className="w-11/12 max-w-screen-2xl mx-auto py-6 border-b border-white/30 flex items-center justify-between">
       <Image
         src="/logo.svg"
         alt="logo"
-        className="w-[10rem] z-20 order-1 lg:w-[11rem]"
+        className="w-[10rem] z-20 order-1 lg:w-[12rem]"
         width={2000}
         height={2000}
       />
@@ -24,7 +24,7 @@ export default function Navbar() {
         Request An Audit
       </button>
 
-      <div className="order-2 lg:w-7/12">
+      <div className="order-2 lg:w-7/12 max-w-screen-md">
         <div
           className={`${
             open ? "left-0" : "left-[-100%]"

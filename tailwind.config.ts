@@ -17,6 +17,8 @@ const config: Config = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
         "btn-grad":
           "linear-gradient(254deg, #7184fd 20%, #3f7af0 50%, #4f37ee)",
+        "hero-img-grad":
+          "linear-gradient(108.23deg, #000000 10.97%, #046202 100.69%)",
       },
     },
   },
