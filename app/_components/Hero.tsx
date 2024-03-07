@@ -27,7 +27,7 @@ export default function Hero() {
             <span className="text-white/40">{`QuillAudits -> Resources -> `}</span>
             <span className="">Case Studies</span>
           </div>
-          <div className="absolute w-32 md:w-40 -right-6 md:-right-10 bg-white rounded-lg px-1 md:px-2 py-1.5 md:py-3">
+          <div className="absolute w-32 -right-6 md:-right-10 bg-white rounded-lg px-1 md:px-2 py-1.5 md:py-2">
             <Image
               src="/CD-Pension-black.png"
               alt="CD-Pension"
@@ -37,8 +37,8 @@ export default function Hero() {
             />
           </div>
         </div>
-        <div className="flex flex-col justify-center gap-5 py-6 md:py-0 w-11/12 md:w-1/2">
-          <h3 className="text-xl md:text-3xl w-full md:w-10/12 max-w-lg font-semibold">
+        <div className="flex flex-col justify-center gap-5 py-6 md:py-0 w-11/12 md:w-1/3">
+          <h3 className="text-xl md:text-2xl w-full md:w-11/12 max-w-lg font-semibold">
             Securing Trust : Boosting Security and Strengthening Trust at Carpe
             Diem Pension
           </h3>

@@ -15,7 +15,6 @@ html {
   background-size: cover;
 }
 
-
 .grad-btn {
   @apply bg-btn-grad text-white px-6 py-2.5 font-medium rounded-md;
 }
