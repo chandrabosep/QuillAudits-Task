@@ -7,10 +7,10 @@ const poppins = Poppins({ weight: "400", subsets: ["latin"] });
 
 export default function Hero() {
   return (
-    <div className="md:px-24 max-w-screen-2xl m-auto">
+    <div className=" max-w-screen-2xl m-auto">
       <div className="flex flex-col md:flex-row items-center justify-center gap-6 py-10">
         <div className="w-11/12 md:w-fit space-y-4 relative !z-0 flex flex-col items-center">
-          <div className="md:h-[25rem] w-full max-w-md py-4  flex flex-col items-center justify-between bg-hero-img-grad rounded-md">
+          <div className="md:h-[25rem] w-full max-w-sm py-4  flex flex-col items-center justify-between bg-hero-img-grad rounded-md">
             <div className="w-3/6 md:w-5/6 pt-10 md:pt-8 h-full flex">
               <Image
                 src="/CD-Pension.png"
@@ -33,7 +33,7 @@ export default function Hero() {
             <span className="text-white/40">{`QuillAudits -> Resources -> `}</span>
             <span className="">Case Studies</span>
           </div>
-          <div className="absolute w-32 -right-6 md:-right-10 bg-white rounded-lg px-1 md:px-2 py-1.5 md:py-2">
+          <div className="absolute w-32 right-4 inset-x-100 md:-right-10 bg-white rounded-lg px-1 md:px-2 py-1.5 md:py-2">
             <Image
               src="/CD-Pension-black.png"
               alt="CD-Pension"
@@ -45,7 +45,7 @@ export default function Hero() {
         </div>
         <div className="flex flex-col justify-center gap-5 py-6 md:py-0 w-11/12 md:w-1/3">
           <h3
-            className={`${jost.className} text-xl max-lg:text-xl md:text-2.5xl w-full max-w-lg`}
+            className={`${jost.className} text-xl md:text-2.5xl w-full max-w-lg`}
           >
             Securing Trust : Boosting Security and Strengthening Trust at Carpe
             Diem Pension

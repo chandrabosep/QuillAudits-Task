@@ -13,11 +13,11 @@ const config: Config = {
       },
       fontSize: {
         "2.5xl": [
-          "2.2rem",
+          "2.1rem",
           {
             lineHeight: "2.6rem",
             letterSpacing: "-0.02em",
-            fontWeight: "600",
+            fontWeight: "500",
           },
         ],
       },
