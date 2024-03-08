@@ -1,5 +1,9 @@
 import React from "react";
 import Image from "next/image";
+import { Jost, Poppins } from "next/font/google";
+
+const jost = Jost({ subsets: ["latin"] });
+const poppins = Poppins({ weight: "400", subsets: ["latin"] });
 
 export default function Hero() {
   return (
@@ -17,7 +21,9 @@ export default function Hero() {
               />
             </div>
 
-            <p className="w-9/12 md:w-8/12 ml-10 self-start text-xs md:text-base line-clamp-4 md:line-clamp-none ">
+            <p
+              className={`${poppins.className} w-9/12 md:w-8/12 ml-10 self-start text-xs md:text-sm line-clamp-4 md:line-clamp-none `}
+            >
               Carpe Diem Pension, a blockchain-based retirement fund, offers
               permanent payouts through CDP deposits, with a 4.32% annual
               inflation claimable by depositors.
@@ -38,11 +44,15 @@ export default function Hero() {
           </div>
         </div>
         <div className="flex flex-col justify-center gap-5 py-6 md:py-0 w-11/12 md:w-1/3">
-          <h3 className="text-xl max-lg:text-xl md:text-2.5xl w-full max-w-lg font-semibold">
+          <h3
+            className={`${jost.className} text-xl max-lg:text-xl md:text-2.5xl w-full max-w-lg`}
+          >
             Securing Trust : Boosting Security and Strengthening Trust at Carpe
             Diem Pension
           </h3>
-          <p className="text-sm font-normal w-full max-w-sm ">
+          <p
+            className={`${poppins.className}text-sm font-normal w-full max-w-sm `}
+          >
             QuillAudits enhances Carpe Diem Pension by addressing 33
             vulnerabilities on the Pulse blockchain, boosting security and user
             trust in digital pensions.

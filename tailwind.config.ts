@@ -15,9 +15,9 @@ const config: Config = {
         "2.5xl": [
           "2.2rem",
           {
-            lineHeight: "2.25rem",
+            lineHeight: "2.6rem",
             letterSpacing: "-0.02em",
-            fontWeight: "700",
+            fontWeight: "600",
           },
         ],
       },
