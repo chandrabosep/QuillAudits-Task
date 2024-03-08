@@ -38,7 +38,7 @@ export default function Hero() {
           </div>
         </div>
         <div className="flex flex-col justify-center gap-5 py-6 md:py-0 w-11/12 md:w-1/3">
-          <h3 className="text-xl md:text-2.5xl w-full max-w-lg font-semibold">
+          <h3 className="text-xl max-lg:text-xl md:text-2.5xl w-full max-w-lg font-semibold">
             Securing Trust : Boosting Security and Strengthening Trust at Carpe
             Diem Pension
           </h3>

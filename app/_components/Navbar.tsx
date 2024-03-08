@@ -2,7 +2,7 @@
 import { ChevronDown, MenuIcon, X } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
-import React from "react";
+import React, { useEffect, useState } from "react";
 
 export default function Navbar() {
   const [open, setOpen] = React.useState(false);
@@ -10,9 +10,28 @@ export default function Navbar() {
   const onToggle = () => {
     setOpen((prev) => !prev);
   };
+  const [scrolling, setScrolling] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrollTop = window.scrollY;
+
+      if (scrollTop > 0) {
+        setScrolling(true);
+      } else {
+        setScrolling(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
 
   return (
-    <div className="fixed top-0 w-full z-30">
+    <div className={`${scrolling ? "hero-bg" : ""} fixed top-0 w-full z-30`}>
       <div className="w-11/12 max-w-screen-2xl mx-auto py-6 border-b border-white/30 flex items-center justify-between">
         <Image
           src="/logo.svg"
