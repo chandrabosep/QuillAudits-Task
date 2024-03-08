@@ -9,7 +9,17 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        primary: "15306f",
+        primary: "#15306f",
+      },
+      fontSize: {
+        "2.5xl": [
+          "2.2rem",
+          {
+            lineHeight: "2.25rem",
+            letterSpacing: "-0.02em",
+            fontWeight: "700",
+          },
+        ],
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
@@ -19,6 +29,8 @@ const config: Config = {
           "linear-gradient(254deg, #7184fd 20%, #3f7af0 50%, #4f37ee)",
         "hero-img-grad":
           "linear-gradient(108.23deg, #000000 10.97%, #046202 100.69%)",
+        "card-grad":
+          "linear-gradient(90.3deg, #2B4D93 -10.68%, #0E205B 27.98%, #162867 55.94%, #323A87 103.52%)",
       },
     },
   },

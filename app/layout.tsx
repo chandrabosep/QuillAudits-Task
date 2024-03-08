@@ -1,5 +1,9 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import Navbar from "./_components/Navbar";
+import { Jost } from "next/font/google";
+
+const jost = Jost({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Quill Audits - Case Studies",
@@ -13,7 +17,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body className={jost.className}>
+        <Navbar />
+        {children}
+      </body>
     </html>
   );
 }
