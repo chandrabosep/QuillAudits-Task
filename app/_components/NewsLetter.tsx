@@ -17,11 +17,11 @@ export default function NewsLetter() {
         </div>
         <div className="md:w-1/2 mx-auto flex flex-col items-center gap-2">
           <Image
-            src="/news.png"
+            src="/news.svg"
             alt="newsletter"
             className="md:w-11/12"
-            width={2000}
-            height={2000}
+            width={5000}
+            height={5000}
           />
           <div className="md:w-10/12  px-2 bg-white rounded-lg flex justify-between items-center">
             <input

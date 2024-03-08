@@ -4,7 +4,7 @@ import React from "react";
 
 export default function DescCard() {
   return (
-    <div className="w-11/12 mx-auto md:w-4/6 border flex flex-col">
+    <div className="w-11/12 float-left mx-auto md:w-4/6 border flex flex-col">
       <div className="relative bg-card-grad w-full px-4 py-4  text-white rounded-t-md">
         <Image
           src="/quote.svg"
