@@ -2,6 +2,7 @@ import CTA from "./_components/InfoContainer";
 import Hero from "./_components/Hero";
 import Description from "./_components/Description";
 import DescCard from "./_components/DescCard";
+import NewsLetter from "./_components/NewsLetter";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       </div>
       <CTA />
       <Description />
+      <NewsLetter />
     </main>
   );
 }
