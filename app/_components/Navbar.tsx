@@ -48,7 +48,7 @@ export default function Navbar() {
           <div
             className={`${
               open ? "left-0" : "left-[-100%]"
-            } absolute lg:contents min-h-full pt-28 top-0 w-full text-white bg-black opacity-[0.98]`}
+            } absolute lg:contents min-h-full py-28 top-0 w-full text-white bg-black opacity-[0.98]`}
           >
             <div className="w-5/6 lg:w-full mx-auto flex flex-col lg:flex-row gap-8 lg:gap-0  lg:items-center lg:justify-between">
               {[
