@@ -17,7 +17,7 @@ export default function DescCard() {
           <h6 className="font-semibold text-xl">Sally Radley</h6>
           <p className="font-light">WebGFi - CEO</p>
         </div>
-        <div className="absolute h-32 w-32 md:w-40 md:h-40 bg-blue-900 right-8 md:right-20 rounded-md top-14 md:top-8 mx-auto"></div>
+        <div className="absolute h-24 w-24 md:w-40 md:h-40 bg-blue-900 right-8 md:right-10 rounded-md top-[4.5rem] md:top-8 mx-auto"></div>
       </div>
       <div className="bg-white w-full px-4 py-4">
         <div className="w-10/12 mx-auto space-y-2 md:space-y-6">

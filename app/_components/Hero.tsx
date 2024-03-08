@@ -33,7 +33,7 @@ export default function Hero() {
             <span className="text-white/40">{`QuillAudits -> Resources -> `}</span>
             <span className="">Case Studies</span>
           </div>
-          <div className="absolute w-32 right-4 inset-x-100 md:-right-10 bg-white rounded-lg px-1 md:px-2 py-1.5 md:py-2">
+          <div className="absolute w-32 -right-4 md:-right-10 bg-white rounded-lg px-1 md:px-2 py-1.5 md:py-2">
             <Image
               src="/CD-Pension-black.png"
               alt="CD-Pension"
